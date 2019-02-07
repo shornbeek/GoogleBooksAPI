@@ -1,5 +1,5 @@
 nav {
-  background-color: #f9c411;
+  background-color: #ffffff;
   padding: 1rem 0;
 }
 
@@ -7,7 +7,7 @@ nav h2 {
   display: inline;
   margin: 0 2vw;
   font-size: 1.25rem;
-  color: white;
+  color: black;
 }
 
 nav a {
@@ -17,11 +17,12 @@ nav a {
   text-decoration: none;
 }
 nav a:hover {
-  background-color: #33658A;
+  /* background-color: rgb(241, 241, 241); */
+  color: black;
   height: 100%;
 }
 nav a:visited {
-  color: #33658A;
+  color: rgb(146, 146, 146);
 }
 
 header h1 {
@@ -29,7 +30,7 @@ header h1 {
   text-align: center;
   color: white;
   padding: 12% 0 3%;
-  text-shadow: 5px 5px 30px black;
+  text-shadow: 8px 8px 40px black;
 }
 
 header p {
@@ -70,10 +71,10 @@ input {
 button {
   border-radius: 0;
   border: none;
-  background-color: #f9c411;
+  background-color: rgb(248, 163, 35);
   color: white;
   padding: .75vw;
-  font-size: 1.25vw;
+  font-size: 2.00vw;
 }
 
 form button {
